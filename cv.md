@@ -15,3 +15,7 @@ At this moment I'm interested in frontend development with getting HTML, CSS and
 - HTML 5
 - CSS 3
 - JavaScript (Basic)
+
+## Experience
+__Company:__ HAVI Logisticks\
+__Position:__ Senior IT engineer
