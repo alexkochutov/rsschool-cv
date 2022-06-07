@@ -22,3 +22,7 @@ __Position:__ Senior IT engineer
 
 ## Education
 __University:__ Moscow State University of Management and Technologies, Engineer of automized systems
+
+## Languages
+__English B2__ (I have reach expirience of communication with native speakers and coworkers from Europe and India)\
+__Russian C2__ Native speaker
