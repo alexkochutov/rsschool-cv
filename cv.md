@@ -19,3 +19,6 @@ At this moment I'm interested in frontend development with getting HTML, CSS and
 ## Experience
 __Company:__ HAVI Logisticks\
 __Position:__ Senior IT engineer
+
+## Education
+__University:__ Moscow State University of Management and Technologies, Engineer of automized systems
