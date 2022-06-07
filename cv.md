@@ -8,4 +8,10 @@
 
 ### About me
 I have deep understanding of core IT-infrastructure services like AD, DNS, DHCP, internet and network protocols and a lot of years expirience in mentioned field.
-At this moment I'm interested in frontend development with getting HTML, CSS and JavaScript skills. 
+At this moment I'm interested in frontend development with getting HTML, CSS and JavaScript skills.
+
+### Skills
+- Git, GitHub
+- HTML 5
+- CSS 3
+- JavaScript (Basic)
