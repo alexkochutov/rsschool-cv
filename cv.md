@@ -1,16 +1,16 @@
 # Aleksandr Kochutov
 
-### Contacts
+## Contacts
 * __Location:__ Armenia, Yerevan
 * __Phone:__ +374 55 075 014
 * __Email:__ alex.kochutov@gmail.com
 * __GitHub:__[alexkochutov](https://github.com/alexkochutov)
 
-### About me
+## About me
 I have deep understanding of core IT-infrastructure services like AD, DNS, DHCP, internet and network protocols and a lot of years expirience in mentioned field.
 At this moment I'm interested in frontend development with getting HTML, CSS and JavaScript skills.
 
-### Skills
+## Skills
 - Git, GitHub
 - HTML 5
 - CSS 3
