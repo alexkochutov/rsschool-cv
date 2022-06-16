@@ -1,19 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta name="description" content="Aleksandr Kochutov CV">
+  <meta name="author" content="Aleksandr Kochutov">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Aleksandr Kochutov | rsschool-cv</title>
-  <meta name="Curriculum Vitae" content="Curriculum Vitae">
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Aleksandr Kochutov</h1>
-    <h2>Contacts</h2>
-    <ul>
-      <li><strong>Location:</strong> Armenia, Yerevan</li>
-      <li><strong>Phone:</strong> +374 55 075 014</li>
-      <li><strong>Email:</strong> alex.kochutov@gmail.com</li>
-      <li><strong>GitHub:</strong><a href="https://github.com/alexkochutov">alexkochutov</a></li>
-    </ul>
+  <div class="page-wrapper">
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Contacts</a></li>
+          <li><a href="#">About me</a></li>
+          <li><a href="#">Skills</a></li>
+          <li><a href="#">Code example</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Education</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="contacts">
+        <div>
+          <img class="photo" src="images/photo.png" alt="Avatar">
+        </div>
+        <div>
+          <h1>Aleksandr Kochutov</h1>
+          <p>Junior Front-end developer</p>
+          <ul>
+            <li><strong>Location:</strong> Armenia, Yerevan</li>
+            <li><strong>Phone:</strong> +374 55 075 014</li>
+            <li><strong>Email:</strong> <a href="mailto:alex.kochutov@gmail.com">alex.kochutov@gmail.com</a></li>
+            <li><strong>GitHub:</strong> <a href="https://github.com/alexkochutov">alexkochutov</a></li>
+            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/alex-kochutov/">alex-kochutov</a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="aboutme">
+        <header><h2>About me</h2></header>
+        <p>Hi there! I'm Alexandr. I'm 36 years old and I'm currently living in beutiful city - Yerevan, Armenia.</p>
+        <p>Most of all I like to learn something new about technology regarding with software development or 
+        infrastructure services and networks, like Active Directory, DNS, DHCP, switching and rounting protocols.</p>
+      </section>
+      <section class="skills">
+        <header><h2>Skills</h2></header>
+        <ul>
+          <li>Windows infrastructure
+            <ul>
+              <li>Active Directory</li>
+              <li>DNS</li>
+              <li>DHCP</li>
+            </ul>
+          </li>
+          <li>Network infrastructure
+            <ul>
+              <li>Switching protocols</li>
+              <li>Routing protocols</li>
+              <li>Security & Firewalls</li>
+            </ul>
+          </li>
+          <li>WEB Technologies
+            <ul>
+              <li>HTML 5</li>
+              <li>CSS 3</li>
+              <li>JavaScript (Basics)</li>
+            </ul>
+          </li>
+          <li>Other features
+            <ul>
+              <li>Git & Gitlab</li>
+              <li>Docker</li>
+              <li>Automation testing skills</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <section class="code">
+        <header>
+          <h2>Code Example</h2></header>
+          <div class="code-wrapper">
+            <span class="code-comment">
+              /*
+              Simple CSS code example
+              */
+            </span>
+            <br>
+            <br>
+            <span class="code-selector">.code-wrapper </span>
+            <span class="code-brackets">{</span>
+            <br>
+            <span class="code-property">&nbsp;&nbsp;&nbsp;&nbsp;font-size:&nbsp;</span>
+            <span class="code-value">14px;</span>
+            <br>
+            <span class="code-property">&nbsp;&nbsp;&nbsp;&nbsp;font-family:&nbsp;</span>
+            <span class="code-value">'Roboto Mono', monospace;</span>
+            <br>
+            <span class="code-property">&nbsp;&nbsp;&nbsp;&nbsp;padding:&nbsp;</span>
+            <span class="code-value">10px;</span>
+            <br>
+            <span class="code-property">&nbsp;&nbsp;&nbsp;&nbsp;background-color:&nbsp;</span>
+            <span class="code-value">#212121;</span>
+            <br>
+            <span class="code-brackets">}</span>
+          </div>
+      </section>
+      <section class="projects">
+        <header><h2>Projects</h2></header>
+        <div class="project-wrapper">
+          <a href="https://alexkochutov.github.io/rsschool-cv/cv" class="project-card">
+            <p class="project-card-header">Simple CV</p>
+            <img class="project-card-pic" src="images/project1.png" alt="Project 1 picture">
+            <p class="project-card-description">Simple CV made with Markdown and GitHub.</p>
+          </a>
+          <a href="https://alexkochutov.github.io/rsschool-cv/" class="project-card">
+            <p class="project-card-header">Full HTML CV</p>
+            <img class="project-card-pic" src="images/project2.png" alt="Project 1 picture">
+            <p class="project-card-description">CV made with HTML5, CSS3.</p>
+          </a>
+        </div>
+      </section>
+      <section class="education">
+        <header><h2>Education</h2></header>
+        <p class="university-name">Moscow State University of Technology and Management</p>
+        <p class="university-years">Sep 2003 - Aug 2009</p>
+        <p class="university-spec">Master's degree: Automation system's engineer</p>
+        <p class="university-name">Russian Academy of Entrepreneurship</p>
+        <p class="university-years">Sep 2010 - Jul 2013</p>
+        <p class="university-spec">Master's degree: Economics</p>
+      </section>
+      <section class="langs">
+        <header><h2>Languages</h2></header>
+        <p class="language-name">Russian</p>
+        <p class="language-level">C2 - Native</p>
+        <p class="language-name">English</p>
+        <p class="language-level">B2 - Upper intermediate</p>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <p>© 2022 by Aleksandr Kochutov</p>
+      </div>
+      <div>
+        <a href="https://github.com/alexkochutov">
+          <img class="github-logo" src="images/github.png" alt="GitHub Logo">
+        </a>
+      </div>
+      <div>
+        <a href="https://rs.school/js/">
+          <img class="rss-logo" src="images/rs_school_js.svg" alt="RSSchool JS Course Logo">
+        </a>
+      </div>
+    </footer>
+  </div>
 </body>
 </html>
