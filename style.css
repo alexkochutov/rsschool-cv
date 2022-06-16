@@ -196,3 +196,19 @@ nav ul li a:hover {
     font-weight: 300;
     margin: 0;
 }
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px 50px;
+    border-top: solid 2px #212121;
+}
+
+.github-logo {
+    width: 170px;
+}
+
+.rss-logo {
+    width: 170px;
+}
