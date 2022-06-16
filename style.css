@@ -35,6 +35,10 @@ h2 {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+.contacts, .aboutme, .education {
+    padding: 25px 50px;
+}
+
 nav {
     background-color: #ff9800;
 }
@@ -72,8 +76,6 @@ nav ul li a:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 25px 50px;
-    border-bottom: solid 2px #ff9800;
 }
 
 .photo {
@@ -100,11 +102,6 @@ nav ul li a:hover {
 .contacts ul li a {
     color: #212121;
     text-decoration: none;
-}
-
-.education {
-    padding: 25px 50px;
-    border-bottom: solid 2px #ff9800;
 }
 
 .university-name {
