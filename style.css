@@ -5,9 +5,9 @@ body {
     padding: 0;
     width: 100%;
     height: auto;
-    font-size: 16px;
-    font-family: 'Roboto Condensed', sans-serif;
     color: #212121;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
     box-sizing: border-box;
 }
 
@@ -72,7 +72,8 @@ nav ul li a:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 50px 0;
+    padding: 25px 50px;
+    border-bottom: solid 2px #ff9800;
 }
 
 .photo {
@@ -99,4 +100,27 @@ nav ul li a:hover {
 .contacts ul li a {
     color: #212121;
     text-decoration: none;
+}
+
+.education {
+    padding: 25px 50px;
+    border-bottom: solid 2px #ff9800;
+}
+
+.university-name {
+    font-weight: 700;
+    margin: 25px 0 0 0;
+    text-decoration: underline;
+}
+
+.university-years {
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.university-spec {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0;
 }
