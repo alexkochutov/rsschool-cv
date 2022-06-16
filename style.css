@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&family=Roboto+Mono:wght@100;700&display=swap');
 
 body {
     margin: 0;
@@ -35,7 +36,7 @@ h2 {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.contacts, .aboutme, .skills, .education {
+.contacts, .aboutme, .skills, .code, .education {
     padding: 25px 50px;
 }
 
@@ -102,6 +103,38 @@ nav ul li a:hover {
 .contacts ul li a {
     color: #212121;
     text-decoration: none;
+}
+
+.code-wrapper {
+    font-size: 14px;
+    font-family: 'Roboto Mono', monospace;
+    padding: 10px;
+    background-color: #212121;
+}
+
+.code-comment {
+    color: #ffe0b2;
+    font-weight: 100;
+}
+
+.code-selector {
+    color: #ff9800;
+    font-weight: 700;    
+}
+
+.code-brackets {
+    color: #303f9f;
+    font-weight: 700;    
+}
+
+.code-property {
+    color: #b2dfdb;
+    font-weight: 700;
+}
+
+.code-value {
+    color: #b2dfdb;
+    font-weight: 100;
 }
 
 .university-name {
