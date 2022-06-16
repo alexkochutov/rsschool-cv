@@ -5,16 +5,32 @@ body {
     padding: 0;
     width: 100%;
     height: auto;
+    font-size: 16px;
     font-family: 'Roboto Condensed', sans-serif;
     color: #212121;
     box-sizing: border-box;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: underline;
 }
 
 .page-wrapper {
     display: flex;
     flex-direction: column;
     height: auto;
-    width: 1280px;
+    width: 1024px;
     margin: 25px auto;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -36,11 +52,12 @@ nav ul {
 nav ul li {
     list-style: none;
     align-self: center;
-    padding: 15px 25px;;
+    padding: 15px 25px;
 }
 
 nav ul li a {
     color: #fff;
+    font-size: 20px;
     font-weight: 700;
     text-decoration: none;
     text-transform: uppercase;
@@ -49,4 +66,37 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #212121;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.photo {
+    width: 200px;
+    height: 200px;
+    margin: 0 50px;
+    border-radius: 50%;
+    border: solid 10px #ff9800;
+}
+
+.contacts p {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 20px;
+    text-align: center;
+    border-top: solid 2px #212121;
+    border-bottom: solid 2px #212121;
+}
+
+.contacts ul li {
+    list-style: none;
+}
+
+.contacts ul li a {
+    color: #212121;
+    text-decoration: none;
 }
